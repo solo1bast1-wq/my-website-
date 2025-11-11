@@ -1,0 +1,85 @@
+/* الخطوط والألوان العامة */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #e6f2ff;
+    color: #333333;
+}
+
+/* الهيدر وشريط التنقل */
+header {
+    background-color: #007acc;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+    margin: 0 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffcc00;
+}
+
+/* العناوين والفقرات */
+h1, h2 {
+    color: #005999;
+    margin-top: 20px;
+}
+
+p {
+    margin: 15px 0;
+}
+
+/* القوائم */
+ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* الصور */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin: 15px 0;
+}
+
+/* صندوق الإعلان */
+.ad-container {
+    margin: 25px 0;
+    text-align: center;
+    border: 1px solid #cccccc;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 6px;
+}
+
+/* الفوتر */
+footer {
+    text-align: center;
+    background-color: #007acc;
+    color: white;
+    padding: 10px;
+    margin-top: 30px;
+    font-size: 0.9em;
+}
+
+/* تصميم متجاوب */
+@media (max-width: 600px) {
+    nav a {
+        display: block;
+        margin: 5px 0;
+    }
+}
